@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: block;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body{
+  background-color: aquamarine;
+  min-height: 90vh;
+  padding: auto;
+}
+
+.btns-class{
+  background-color: #282c34;
+  min-height: 30vw;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: stretch;
+  align-content: stretch;
+}
+
+.text-class{
+  min-width: 30vw;
+  margin: 50px;
+}
+
+button{
+  min-height: 5vw;
+  min-width: 5vw;
+  margin:0.8vw;
+}
